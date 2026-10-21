@@ -1,0 +1,179 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	background-image: url(img/back.gif);
+}
+img {vertical-align:top;} 
+#wrap {
+	background-color: #FFFFFF;
+	width: 700px;
+	padding: 5px;
+	margin: 0px auto;
+	border: 1px solid #333333;
+	background-image: url(img/cont.gif);
+}
+#header {
+	float: left;
+}
+#global_navi {
+	clear: both;
+	padding: 0px;
+	margin: 5px 0px;
+	}
+#content {
+	background-color: #CCCCCC;
+}
+#side_navi {
+	background-color: #FFFFFF;
+	float: left;
+	width: 160px;
+	padding: 0px;
+	border-top: 1px solid #666666;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #666666;
+}
+#main_content {
+	background-color: #FFFFFF;
+	float: right;
+	width: 510px;
+	padding: 10px;
+	border-top: 1px solid #666666;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #666666;
+}
+#footer {
+	clear: both;
+	padding: 0px 0px 0px 10px;
+	margin-top: 8px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	float: none;
+}
+
+h1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 11pt;
+	line-height: 1.5em;
+	font-weight: bold;
+	color: #333333;
+	margin: 10px 0px;
+	padding: 0px;
+	clear: both;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3366CC;
+}
+h2 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 11pt;
+	line-height: 1.5em;
+	font-weight: bold;
+	color: #333333;
+	margin: 10px 0px;
+	padding: 0px;
+	clear: both;
+	text-indent: 5px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #3366CC;
+}
+h3 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	font-weight: bold;
+	color: #333333;
+	margin: 10px 0px 10px 10px;
+	padding: 0px;
+	clear: both;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+}
+h4 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	color: #333333;
+	margin: 10px 0px 10px 20px;
+	padding: 0px;
+	clear: both;
+	font-weight: bold;
+}
+p {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	color: #333333;
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #0066FF;
+}
+a:visited {
+	color: #9966CC;
+}
+#side_navi ul {
+	text-indent: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#global_navi img {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#side_navi li {
+	font-size: 9pt;
+	line-height: 2em;
+	color: #333333;
+	margin: 8px 0px;
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	list-style-type: none;
+	text-indent: 24px;
+	background-position: 0px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+.clear_float {
+	clear: both;
+	float: none;
+}
+.copyrights {
+	font-family: "ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 8pt;
+	color: #333333;
+	text-align: right;
+}
+.float_left {
+	float: left;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+a img {
+	border: none;
+}
