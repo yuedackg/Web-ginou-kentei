@@ -43,6 +43,10 @@ body {
 	border-bottom: none;
 	border-left: 1px solid #666666;
 }
+#main_content h1{
+	background-color: #000033;
+	color: #FFFFFF;
+}
 #footer {
 	clear: both;
 	padding: 0px 0px 0px 10px;
