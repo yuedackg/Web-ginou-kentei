@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #ccbbaa;
+  background-image: url(img/bg.png);
+  color: #333333;
+  font-family: "メイリオ", 'MS PGothic', Osaka, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0 0 0 260px;
+  min-height: 100%;
+  padding: 0;
+}
+
+header, footer, main {
+  display: block;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffffff;
+  height: 100%;
+  left: 0;
+  min-height: 100%;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  width: 260px;
+}
+
+#logo {
+  padding: 0 20px 30px;
+}
+
+nav {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border-bottom: solid 1px #eeeeee;
+  font-weight: bold;
+}
+
+nav li:first-of-type {
+  border-top: solid 1px #eeeeee;
+}
+
+nav a {
+  background: url(img/ar.png) no-repeat 5px center;
+  display: block;
+  line-height: 3em;
+  padding-left: 25px;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #241a11;
+}
+
+#wrap {
+  line-height: 200%;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0 0 145px 0;
+  position: relative;
+  width: 100%;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+#main_visual {
+  height: 200px;
+  margin-bottom: 40px;
+  min-width: 600px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+#main_visual img {
+  width: 100%;
+}
+
+#main_visual strong {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  display: block;
+  font-size: 1.6em;
+  height: 35px;
+  letter-spacing: 0.5em;
+  margin: auto;
+  padding: 5px 5px 5px 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+}
+
+.container {
+  background: #ffffff;
+  height: 100%;
+  margin: 0 auto 40px;
+  min-height: 460px;
+  padding: 30px;
+  width: 80%;
+}
+
+h1 {
+  border-bottom: dashed 3px #333333;
+  font-size: 1.2em;
+  margin-top: 0;
+  padding: 5px 0;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1em;
+}
+
+footer {
+  font-size: 0.9em;
+  height: 145px;
+  min-width: 600px;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > ._nav {
+  background-color: #cecece;
+  padding: 20px;
+}
+
+footer a {
+  color: #333333;
+}
+
+footer a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+footer li:last-of-type {
+  margin-right: 0;
+}
+
+#copyrights {
+  background-color: #241a11;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  color: #333333;
+  font-family: "メイリオ", 'MS PGothic', Osaka, sans-serif;
+  font-size: 16px;
+  margin: 0 0 150px 0;
+  min-height: 100%;
+  padding: 0;
+}
+
+header, footer, main, aside {
+  display: block;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #999999;
+}
+
+#wrap {
+  background-color: #ffffff;
+  border: solid 1px #000;
+  line-height: 200%;
+  margin: 20px auto 50px;
+  min-height: 100%;
+  padding-bottom: 40px;
+  width: 918px;
+}
+
+header {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+#logo {
+  float: left;
+  margin: 0 0 20px 20px;
+}
+
+nav {
+  float: right;
+  font-size: 0.9em;
+  margin: 5px 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+nav a {
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav li:last-of-type {
+  margin-right: 0;
+}
+
+#main_visual {
+  background: url(img/main_image.jpg) no-repeat center center;
+  display: table;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#main_visual strong {
+  color: #ffffff;
+  display: table-cell;
+  font-size: 1.8em;
+  vertical-align: middle;
+  width: 920px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 40px 30px 0 20px;
+  min-height: 300px;
+  padding: 20px;
+}
+
+h1 {
+  border-left: solid 6px #333333;
+  font-size: 1.2em;
+  margin-top: 0;
+  padding: 5px 0 5px 10px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1em;
+}
+
+footer {
+  background-color: #333333;
+  bottom: 0;
+  clear: both;
+  color: #ffffff;
+  font-size: 0.9em;
+  height: 20px;
+  min-width: 920px;
+  padding: 40px 0;
+  position: absolute;
+  width: 100%;
+}
+
+footer a {
+  color: #999999;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+footer li:last-of-type {
+  margin-right: 0;
+}
+
+#copyrights {
+  float: left;
+}
+
+.container {
+  margin: auto;
+  width: 920px;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
